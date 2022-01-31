@@ -1,0 +1,172 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#mainPre{
+  animation: 2s ease spin infinite;
+}
+@keyframes spin{
+  0%{transform: rotate(90deg);}
+  100%{transform: rotate(180deg);}
+}
+.preloader{
+    position: fixed;
+    height: 110%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1)!important;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 99999999999999;
+}
+.topBold{
+    font-family: 'Anton', sans-serif;
+    font-size: 10vh;
+}
+.diss{
+    animation: dissappear 1s forwards;
+}
+body{
+  background-color: black!important;
+}
+.gradi{
+  background-image: linear-gradient(90deg,#ffffff44,rgba(0,0,0,0.1));
+}
+.one{
+  background-image: url(../img/Mahbubur\ rahman.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+  overflow: hidden!important;
+}
+.row{
+    width: 100%;
+    /*background: url(https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.text-title{
+    font-size: 8vh;
+    color: #ffffff;
+}
+.line{
+    height: 5px;
+    width: 30vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.back-nav{
+    background: rgb(13,13,13);
+    background: linear-gradient(90deg, rgba(13,13,13,1) 0%, rgba(0,0,0,0.4738095067128414) 48%, rgba(0,0,0,0) 100%); 
+}
+.margin{
+    margin: 20px;
+    margin-left: 60px;
+}
+.two{
+    height: auto;
+    width: 100%;
+    background: url(../img/Mahbubur\ rahman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.three{
+    height: auto;
+    width: 100%;
+    background: url(../img/Mahbubur\ rahman\ 03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+@keyframes dissappear{
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.hidden { display: none; }
+ @media screen and (max-width: 600px) {
+
+#posts .post { width: 50%; }
+}
+#image{
+  height: auto;
+  width: 70vh;
+  visibility: hidden;
+}
+@media only screen and (max-width:650px){
+  #image{
+    visibility: hidden;
+  }
+  .one{
+    background-image: url(../img/3-min-bg.jpg);
+    background-repeat: no-repeat;
+  }
+}
+::selection{
+  color: #000000;
+  background-color: #ffffff;
+}
+.image-profile{
+  height: 40vh;
+  width: auto;
+  border-radius: 50%;
+  padding: 5px;
+  border: 3px solid #ffffff;
+}
+.flex-mama{
+  display: flex;
+}
+.flex-mama p{
+  padding: 5px;
+  margin-top: 5px;
+}
+@media only screen and (max-width: 600px){
+ #Special-row{
+    margin: 0!important;
+    padding: 0!important;
+    width: 100%!important;
+    max-height: 1000px;
+    max-width: 2000px;
+    height: 500px!important;
+  } 
+}
+#Special-row{
+  margin: 0!important;
+  padding: 0!important;
+  width: 100%!important;
+  max-width: 2000px;
+}
+.four{
+  height: auto;
+  width: 100%!important;
+  background-image: url(../img/Mahbubur-rahman-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
